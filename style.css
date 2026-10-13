@@ -100,5 +100,5 @@ sub{font-size:50%;vertical-align:sub;line-height:0}
 .contact-section .contact-card p a[href^="mailto:"]{color:#111!important;}
 
 /* TOP card image framing only */
-.quick-card[href="#research"] img{object-position:center 63%}
+.quick-card[href="#research"] img{object-position:center 72%}
 .quick-card[href="#members"] img{object-position:center 53%}
