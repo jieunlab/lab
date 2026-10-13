@@ -17,3 +17,6 @@ The default website URL is `https://jieunlab.github.io/lab/`.
 
 ## Members
 PI portrait is provided by the site owner. Student cards use initials as placeholders, not invented photographs. Researchmap, Google Scholar, and ORCID are labels awaiting verified profile URLs.
+
+## Publications update
+All 33 entries from pages 2–7 of the user-supplied CV have been added, with DOI links where available. The CV is the source; verify before public release.

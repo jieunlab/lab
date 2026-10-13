@@ -27,3 +27,27 @@ sub{font-size:1em;vertical-align:sub;line-height:0}
 .hero h1{font-family:'Montserrat',sans-serif;font-weight:800;letter-spacing:-2.5px}
 sub{font-size:0.7em;vertical-align:sub;line-height:0}
 @media(max-width:740px){.hero h1{letter-spacing:-1.5px}}
+
+/* Final typography and Members layout */
+.brand strong{font-family:'Inter',Arial,sans-serif;font-weight:600;letter-spacing:1.5px}
+.hero h1{font-family:'Montserrat',Arial,sans-serif;font-weight:800;letter-spacing:-2.5px}
+sub{font-size:50%;vertical-align:sub;line-height:0}
+.pi-card{max-width:none;gap:26px;align-items:center}
+.pi-photo{width:155px;height:180px;max-width:none;object-fit:cover;object-position:center 26%;border-radius:8px;margin:18px 0 18px 18px}
+.member-details{padding:22px 26px 22px 0}
+.member-role{margin:0 0 8px!important;font-size:13px;letter-spacing:1.3px}
+.member-details h3{margin:0 0 5px;font-size:clamp(23px,2.4vw,30px)}
+.profile-links{margin-top:13px;font-size:15px}
+.student-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:24px}
+.student-card{min-height:0;padding:20px 26px;border-radius:8px}
+.student-role{font-size:14px;margin:0 0 6px!important}
+.student-card h4{font-size:19px}
+.publication-list{max-width:1120px}
+.publication-year{font:700 26px 'Montserrat',sans-serif;color:#102039;margin:38px 0 12px}
+.publication-year-list{border-top:2px solid #e5e4e2}
+.publication-entry{display:grid;grid-template-columns:42px minmax(0,1fr);gap:12px;padding:19px 0;border-bottom:1px solid #e6e7e9}
+.publication-number{font:600 14px 'Inter',sans-serif;color:#bd6652;padding-top:3px}
+.publication-body p{margin:0;color:#253248;font-size:15px;line-height:1.7}
+.doi-link{display:inline-block;margin-top:7px;color:#bd604a;font-weight:600;font-size:14px}
+.doi-link:hover{text-decoration:underline}
+@media(max-width:740px){.hero h1{letter-spacing:-1.5px}.pi-card{flex-direction:row;gap:12px}.pi-photo{width:92px;height:115px;margin:12px 0 12px 12px}.member-details{padding:12px 10px 12px 0}.member-details h3{font-size:19px}.member-details p{font-size:12px}.profile-links{font-size:12px;gap:9px}.student-grid{grid-template-columns:1fr}.student-card{padding:17px 20px}.publication-entry{grid-template-columns:30px 1fr}}
