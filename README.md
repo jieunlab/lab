@@ -1,26 +1,9 @@
-# Jung Research Group Website
+# Jung Research Group — Research Image Update
 
-Static, responsive homepage for the Jung Research Group at Hokkaido University.
+Updated Research 01 and 02 images in index.html. Other page sections, styling, and scripts remain unchanged.
 
-## Publish on GitHub Pages
-Upload `index.html`, `style.css`, `script.js`, and the entire `assets` folder to the **root** of your `jieunlab/lab` repository. In Settings → Pages, select `Deploy from a branch`, branch `main`, folder `/(root)`.
+## Upload to GitHub Pages
 
-The default website URL is `https://jieunlab.github.io/lab/`.
+In the `jieunlab/lab` repository, upload `index.html`, `style.css`, `script.js`, and both PNG files inside `assets/` (preserving the folder paths). Commit changes to the publishing branch.
 
-## Customize
-- `index.html`: group description, research, members, publications, facilities, news, contact
-- `style.css`: fonts, colors, spacing, navigation size
-- `assets/`: website imagery
-- `script.js`: mobile navigation and active tab highlighting
-
-**Important:** Images are concept illustrations cropped from a generated website mockup, not verified photographs of Hokkaido University or actual laboratory equipment. Replace with authorized real images before presenting them as documentary photos. Publications, news, instrument models, and email are deliberately left as placeholders.
-
-## Members
-PI portrait is provided by the site owner. Student cards use initials as placeholders, not invented photographs. Researchmap, Google Scholar, and ORCID are labels awaiting verified profile URLs.
-
-## Publications update
-All 33 entries from pages 2–7 of the user-supplied CV have been added, with DOI links where available. The CV is the source; verify before public release.
-
-Publication format: author(s), italic title, journal, bold year, italic volume, pages/article number. DOI omitted. All 33 entries transcribed from the supplied CV.
-
-Publication layout: bold title, authors, italic journal, bold year, italic volume, pages/article number. No DOI shown.
+**Important:** The other pre-existing images (e.g. campus-hero.jpg, research-visual-3.webp, member portraits) were not supplied. **Keep all other existing files in your GitHub repository. Do not delete or replace the existing `assets` folder.** This ZIP is an update package, not a complete offline copy of every existing image.
