@@ -171,3 +171,9 @@ sub{font-size:60%!important;vertical-align:sub;line-height:0}
   aspect-ratio:auto;
   object-fit:contain;
 }
+
+/* Research 03 & 04: show entire supplied images at their natural aspect ratios. */
+#research .research-grid-four .research-topic:nth-child(3) img,
+#research .research-grid-four .research-topic:nth-child(4) img {
+  width:100%;height:auto;aspect-ratio:auto;object-fit:contain;max-width:100%;
+}
