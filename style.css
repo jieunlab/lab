@@ -95,3 +95,6 @@ sub{font-size:50%;vertical-align:sub;line-height:0}
 .contact-section .contact-actions .button-outline{background:#fff;color:#b7644e;border:1px solid #c8755e}
 .contact-section .contact-actions .button-outline:hover{background:#fff4f0}
 @media(max-width:600px){.contact-section .contact-actions .button{flex:1;min-width:0}.contact-section .contact-card{padding:22px}}
+
+/* Contact email address: black instead of terracotta */
+.contact-section .contact-card p a[href^="mailto:"]{color:#111!important;}
