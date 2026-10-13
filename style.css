@@ -43,13 +43,9 @@ sub{font-size:50%;vertical-align:sub;line-height:0}
 .student-role{font-size:14px;margin:0 0 6px!important}
 .student-card h4{font-size:19px}
 .publication-list{max-width:1120px}
-.publication-year{font:700 26px 'Montserrat',sans-serif;color:#102039;margin:38px 0 12px}
-.publication-year-list{border-top:2px solid #e5e4e2}
 .publication-entry{display:grid;grid-template-columns:42px minmax(0,1fr);gap:12px;padding:19px 0;border-bottom:1px solid #e6e7e9}
 .publication-number{font:600 14px 'Inter',sans-serif;color:#bd6652;padding-top:3px}
 .publication-body p{margin:0;color:#253248;font-size:15px;line-height:1.7}
-.doi-link{display:inline-block;margin-top:7px;color:#bd604a;font-weight:600;font-size:14px}
-.doi-link:hover{text-decoration:underline}
 @media(max-width:740px){.hero h1{letter-spacing:-1.5px}.pi-card{flex-direction:row;gap:12px}.pi-photo{width:92px;height:115px;margin:12px 0 12px 12px}.member-details{padding:12px 10px 12px 0}.member-details h3{font-size:19px}.member-details p{font-size:12px}.profile-links{font-size:12px;gap:9px}.student-grid{grid-template-columns:1fr}.student-card{padding:17px 20px}.publication-entry{grid-template-columns:30px 1fr}}
 
 /* Students: two clean text-only cards per row on desktop */
@@ -72,3 +68,11 @@ sub{font-size:50%;vertical-align:sub;line-height:0}
 .publication-body .pub-title{font-weight:750;font-style:normal;font-size:17px;line-height:1.55;margin:0 0 7px}
 .publication-body .pub-authors{margin:0 0 6px}
 .publication-body .pub-citation .journal-name{font-style:italic}
+
+/* Final requested layout: no external-link arrows, no year grouping */
+.profile-links a::before,.profile-links a::after{content:none!important;display:none!important}
+.publication-body .pub-title{font-weight:750;font-style:normal}
+.publication-body .pub-citation .journal-name,.publication-body .pub-citation em{font-style:italic}
+.publication-body .pub-citation strong{font-weight:750}
+.hero h1{font-family:'Montserrat',sans-serif;font-weight:800;letter-spacing:-2.5px}
+sub{font-size:50%;vertical-align:sub;line-height:0}
