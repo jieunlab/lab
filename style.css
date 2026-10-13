@@ -162,3 +162,12 @@ sub{font-size:60%!important;vertical-align:sub;line-height:0}
 
 /* Show the two supplied research figures without cropping */
 #research .research-grid-four .research-topic:nth-child(-n+2) img{aspect-ratio:1665/944;object-fit:contain}
+
+/* Research 03–04: preserve the complete original illustrations without cropping. */
+#research .research-grid-four .research-topic:nth-child(n+3) img,
+#research .research-grid-four .research-topic:nth-child(even):nth-child(n+3) img {
+  width:100%;
+  height:auto;
+  aspect-ratio:auto;
+  object-fit:contain;
+}
