@@ -14,3 +14,5 @@ A responsive, static research group website for GitHub Pages.
 - Add a public lab email and confirmed office details.
 - Add approved lab photographs and member profiles.
 - Review all scientific descriptions and the news entry.
+
+Navigation: TOP, Research, Members, Publications, Facilities, News, Contact.
