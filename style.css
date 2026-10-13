@@ -80,3 +80,18 @@ sub{font-size:50%;vertical-align:sub;line-height:0}
 /* Publication title links retain the original heading appearance. */
 .pub-title .publication-title-link { color: inherit; text-decoration: none; }
 .pub-title .publication-title-link:hover, .pub-title .publication-title-link:focus-visible { text-decoration: underline; text-underline-offset: 0.15em; }
+
+/* Contact: consistent designed panel and accessible call-to-action buttons */
+.contact-section .contact-card{max-width:960px;background:#fff;border:1px solid #e7e5e2;border-radius:14px;padding:clamp(24px,4vw,48px);box-shadow:0 6px 24px rgba(16,32,57,.035)}
+.contact-section .contact-card h3{font-family:'Montserrat',sans-serif;font-size:clamp(24px,2.8vw,32px);color:#102039;margin:25px 0 14px}
+.contact-section .contact-card p{font-size:clamp(15px,1.5vw,18px);line-height:1.8;margin:0 0 22px;color:#505b69}
+.contact-section .contact-card p:first-child{margin-top:0}
+.contact-section .contact-card p a[href^="mailto:"]{color:#bc6653;overflow-wrap:anywhere}
+.contact-section .contact-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.contact-section .contact-actions .button{display:inline-flex;align-items:center;justify-content:center;min-width:130px;padding:13px 26px;border-radius:11px;font-family:'Inter',Arial,sans-serif;font-size:16px;font-weight:650;text-decoration:none;transition:background .2s,color .2s,transform .2s}
+.contact-section .contact-actions .button:hover{transform:translateY(-1px)}
+.contact-section .contact-actions .button-primary{background:#c8755e;color:#fff;border:1px solid #c8755e}
+.contact-section .contact-actions .button-primary:hover{background:#b7644e}
+.contact-section .contact-actions .button-outline{background:#fff;color:#b7644e;border:1px solid #c8755e}
+.contact-section .contact-actions .button-outline:hover{background:#fff4f0}
+@media(max-width:600px){.contact-section .contact-actions .button{flex:1;min-width:0}.contact-section .contact-card{padding:22px}}
