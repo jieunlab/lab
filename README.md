@@ -20,3 +20,7 @@ PI portrait is provided by the site owner. Student cards use initials as placeho
 
 ## Publications update
 All 33 entries from pages 2–7 of the user-supplied CV have been added, with DOI links where available. The CV is the source; verify before public release.
+
+Publication format: author(s), italic title, journal, bold year, italic volume, pages/article number. DOI omitted. All 33 entries transcribed from the supplied CV.
+
+Publication layout: bold title, authors, italic journal, bold year, italic volume, pages/article number. No DOI shown.
