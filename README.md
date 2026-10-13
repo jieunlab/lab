@@ -1,9 +1,8 @@
-# Jung Research Group — Research Image Update
+Jung Lab website — Research 03 & 04 image replacement
 
-Updated Research 01 and 02 images in index.html. Other page sections, styling, and scripts remain unchanged.
+This package retains the existing HTML/CSS/JS and Research 01/02 image assets, and replaces ONLY Research 03 and Research 04 with the two exact images supplied in chat.
 
-## Upload to GitHub Pages
+Upload index.html, style.css, script.js and the included assets files to the root of github.com/jieunlab/lab. Preserve all other files already in your repository, including any other assets.
 
-In the `jieunlab/lab` repository, upload `index.html`, `style.css`, `script.js`, and both PNG files inside `assets/` (preserving the folder paths). Commit changes to the publishing branch.
-
-**Important:** The other pre-existing images (e.g. campus-hero.jpg, research-visual-3.webp, member portraits) were not supplied. **Keep all other existing files in your GitHub repository. Do not delete or replace the existing `assets` folder.** This ZIP is an update package, not a complete offline copy of every existing image.
+Research 03: assets/research-03.png
+Research 04: assets/research-04.png
