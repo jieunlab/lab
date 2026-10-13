@@ -14,3 +14,6 @@ The default website URL is `https://jieunlab.github.io/lab/`.
 - `script.js`: mobile navigation and active tab highlighting
 
 **Important:** Images are concept illustrations cropped from a generated website mockup, not verified photographs of Hokkaido University or actual laboratory equipment. Replace with authorized real images before presenting them as documentary photos. Publications, news, instrument models, and email are deliberately left as placeholders.
+
+## Members
+PI portrait is provided by the site owner. Student cards use initials as placeholders, not invented photographs. Researchmap, Google Scholar, and ORCID are labels awaiting verified profile URLs.
