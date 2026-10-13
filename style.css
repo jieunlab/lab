@@ -20,3 +20,5 @@ sub{font-size:1em;vertical-align:sub;line-height:0}
 .member-note{font-size:13px;color:#777e87;margin-top:18px}
 @media(max-width:950px){.student-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:740px){.brand strong{font-size:19px;letter-spacing:1px}.hero h1{font-size:35px;letter-spacing:0}.pi-card{flex-direction:column;gap:0}.pi-photo{width:100%;max-width:100%;height:330px;object-position:center 30%}.member-details{padding:25px}.student-grid{grid-template-columns:1fr 1fr}.student-card{padding:16px;min-height:180px}.student-card h4{font-size:16px}}
+
+.profile-links a{color:#c46a50;text-decoration:none;border-bottom:1px solid transparent}.profile-links a:hover{border-bottom-color:currentColor}
