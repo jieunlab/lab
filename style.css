@@ -22,3 +22,8 @@ sub{font-size:1em;vertical-align:sub;line-height:0}
 @media(max-width:740px){.brand strong{font-size:19px;letter-spacing:1px}.hero h1{font-size:35px;letter-spacing:0}.pi-card{flex-direction:column;gap:0}.pi-photo{width:100%;max-width:100%;height:330px;object-position:center 30%}.member-details{padding:25px}.student-grid{grid-template-columns:1fr 1fr}.student-card{padding:16px;min-height:180px}.student-card h4{font-size:16px}}
 
 .profile-links a{color:#c46a50;text-decoration:none;border-bottom:1px solid transparent}.profile-links a:hover{border-bottom-color:currentColor}
+
+/* Typography corrections: header wordmark only; restore original hero display */
+.hero h1{font-family:'Montserrat',sans-serif;font-weight:800;letter-spacing:-2.5px}
+sub{font-size:0.7em;vertical-align:sub;line-height:0}
+@media(max-width:740px){.hero h1{letter-spacing:-1.5px}}
