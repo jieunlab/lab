@@ -177,3 +177,13 @@ sub{font-size:60%!important;vertical-align:sub;line-height:0}
 #research .research-grid-four .research-topic:nth-child(4) img {
   width:100%;height:auto;aspect-ratio:auto;object-fit:contain;max-width:100%;
 }
+
+/* Bilingual language switch */
+.language-switch{display:flex;align-items:center;gap:9px;white-space:nowrap;margin-left:4px;padding-left:15px;border-left:1px solid #d8dde3;font-family:Inter,Arial,sans-serif}
+.site-nav .language-switch a{font-size:14px;font-weight:600;padding:8px 0 5px;border-bottom:2px solid transparent;color:#657184}
+.site-nav .language-switch a[aria-current="page"]{color:#c45f48;border-bottom-color:#c45f48}
+.language-switch span{color:#adb5be;font-size:13px}
+html[lang="ja"] .hero h1{font-size:clamp(38px,4.5vw,72px)}
+html[lang="ja"] .hero h2{font-family:Inter,'Noto Sans JP',sans-serif;letter-spacing:0;font-size:clamp(23px,2.2vw,34px)}
+@media(max-width:1180px){.language-switch{margin-left:auto}}
+@media(max-width:740px){.language-switch{margin-left:0;padding-left:10px;border-left:2px solid #e4e7eb}.site-nav .language-switch a{font-size:16px}}
