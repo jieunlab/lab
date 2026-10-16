@@ -187,3 +187,12 @@ html[lang="ja"] .hero h1{font-size:clamp(38px,4.5vw,72px)}
 html[lang="ja"] .hero h2{font-family:Inter,'Noto Sans JP',sans-serif;letter-spacing:0;font-size:clamp(23px,2.2vw,34px)}
 @media(max-width:1180px){.language-switch{margin-left:auto}}
 @media(max-width:740px){.language-switch{margin-left:0;padding-left:10px;border-left:2px solid #e4e7eb}.site-nav .language-switch a{font-size:16px}}
+
+/* Compact rounded rectangular bilingual toggle */
+.language-switch{display:inline-flex;gap:3px;align-items:center;margin-left:4px;padding:3px;border:1px solid #d9dfe5;border-radius:9px;background:#fff;white-space:nowrap}
+.site-nav .language-switch a{display:inline-flex;align-items:center;justify-content:center;border:0!important;border-radius:6px;padding:6px 11px;font-size:13px;line-height:1.5;font-weight:600;color:#647084;transition:background .2s,color .2s}
+.site-nav .language-switch a:hover{color:#c45f48;background:#f9f0ed}
+.site-nav .language-switch a[aria-current="page"]{background:#c45f48;color:#fff;border:0!important}
+.site-nav .language-switch a[aria-current="page"]:hover{background:#b65742;color:#fff}
+.pi-name-local{font-family:'Inter','Noto Sans KR','Noto Sans JP',sans-serif;font-size:.58em;font-weight:600;letter-spacing:0;vertical-align:middle;margin-left:12px;white-space:nowrap}
+@media(max-width:740px){.language-switch{margin-left:0;padding:3px;border:1px solid #d9dfe5}.site-nav .language-switch a{font-size:14px;padding:7px 13px}.pi-name-local{display:inline-block;margin-left:6px;font-size:.65em}}
