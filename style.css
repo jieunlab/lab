@@ -218,7 +218,7 @@ html[lang="ja"] .hero h2{font-family:Inter,'Noto Sans JP',sans-serif;letter-spac
 
 
 /* Consistent manufacturer baseline within each facilities row */
-.facility-copy h3{min-height:calc(1.4em * 3)}
+/* Heading heights are matched only within each visible row by script.js. */
 /* Keep the FS-120 instrument in view; crop excess on the right */
 .facility-card img.fs120-photo{object-position:left center}
-@media(max-width:600px){.facility-copy h3{min-height:0}}
+

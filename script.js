@@ -19,3 +19,34 @@ const observer = new IntersectionObserver(entries => {
 }, {rootMargin: '-25% 0px -65% 0px'});
 sections.forEach(section => observer.observe(section));
 document.getElementById('year').textContent = new Date().getFullYear();
+
+
+// Align maker labels only among cards on the same horizontal row.
+// Unlike a global three-line heading minimum, this preserves compact spacing.
+(function alignFacilityMakersByRow() {
+  const cards = Array.from(document.querySelectorAll('.facilities-grid .facility-card'));
+  if (!cards.length) return;
+  let frame = 0;
+  function update() {
+    frame = 0;
+    const headings = cards.map(card => card.querySelector('.facility-copy h3'));
+    headings.forEach(h => { if (h) h.style.minHeight = ''; });
+    const rows = new Map();
+    cards.forEach((card, i) => {
+      const rowTop = Math.round(card.getBoundingClientRect().top);
+      if (!rows.has(rowTop)) rows.set(rowTop, []);
+      if (headings[i]) rows.get(rowTop).push(headings[i]);
+    });
+    rows.forEach(group => {
+      const height = Math.max(...group.map(h => h.getBoundingClientRect().height));
+      group.forEach(h => { h.style.minHeight = height + 'px'; });
+    });
+  }
+  function schedule() {
+    if (frame) cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(update);
+  }
+  schedule();
+  window.addEventListener('resize', schedule);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule);
+})();
