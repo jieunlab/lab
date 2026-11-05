@@ -216,4 +216,3 @@ html[lang="ja"] .hero h2{font-family:Inter,'Noto Sans JP',sans-serif;letter-spac
 @media(max-width:760px){.facilities-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.facilities-grid{grid-template-columns:1fr}}
 
-.facility-room{font-size:.78rem;opacity:.7;margin-top:.45rem}
