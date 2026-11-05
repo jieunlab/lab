@@ -1,4 +1,8 @@
-Updated 10 photos: GC, sterilizer, microbalance, optical microscope (Nikon), recycling HPLC, powder XRD, Karl Fischer, single-crystal XRD, stereo microscope (Leica), Raman.
-No new photos supplied for glovebox, high-temperature/high-pressure reactors, NMR; existing images retained. Powder XRD was listed twice.
-
-Additional 4 photos updated: Raman, high-temperature/high-pressure reactors, NMR, glovebox. Both language pages updated.
+Latest photo replacement (6 images):
+IMG_6759(3).jpeg -> assets/facility-new-11.jpg
+IMG_6731(1).jpeg -> assets/microbalance.jpg
+IMG_6722(1).jpeg -> assets/facility-new-18.jpg
+IMG_6720(1).jpeg -> assets/facility-new-13.jpg
+IMG_6719(1).jpeg -> assets/facility-new-17.jpg
+IMG_6718(1).jpeg -> assets/facility-new-19.jpg
+Other photos and layout unchanged.
