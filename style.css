@@ -216,3 +216,9 @@ html[lang="ja"] .hero h2{font-family:Inter,'Noto Sans JP',sans-serif;letter-spac
 @media(max-width:760px){.facilities-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.facilities-grid{grid-template-columns:1fr}}
 
+
+/* Consistent manufacturer baseline within each facilities row */
+.facility-copy h3{min-height:calc(1.4em * 3)}
+/* Keep the FS-120 instrument in view; crop excess on the right */
+.facility-card img.fs120-photo{object-position:left center}
+@media(max-width:600px){.facility-copy h3{min-height:0}}
