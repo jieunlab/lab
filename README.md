@@ -1,5 +1,5 @@
-# Jung Research Group bilingual website
+Jung Research Group website — Facilities update
 
-Upload `index.html`, `index-ja.html`, `style.css`, and `script.js` to the same GitHub Pages folder. Keep your existing `assets/` directory unchanged.
+Includes 40 facility cards (20 existing + 20 new), with English/Japanese pages and local image assets.
 
-English: `index.html` / Japanese: `index-ja.html`. The `EN | 日本語` selector in the header switches between the pages. Publication titles and citations are preserved in their original language.
+Upload the CONTENTS of this folder to the GitHub Pages repository root, replacing index.html, index-ja.html, style.css, script.js and assets as needed. Keep other existing repository files unchanged.
