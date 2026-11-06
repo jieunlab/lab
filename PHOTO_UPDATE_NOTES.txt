@@ -1,8 +1,1 @@
-Latest photo replacement (6 images):
-IMG_6759(3).jpeg -> assets/facility-new-11.jpg
-IMG_6731(1).jpeg -> assets/microbalance.jpg
-IMG_6722(1).jpeg -> assets/facility-new-18.jpg
-IMG_6720(1).jpeg -> assets/facility-new-13.jpg
-IMG_6719(1).jpeg -> assets/facility-new-17.jpg
-IMG_6718(1).jpeg -> assets/facility-new-19.jpg
-Other photos and layout unchanged.
+Updated 2026-11-06: Replaced seven equipment photos in both English and Japanese pages: J-1500 CD, DSC7020, F-7100 fluorescence, FT/IR-4X, P-2200 polarimeter, Hamamatsu C13534 absolute PL quantum yield, and V-770 UV-Vis-NIR. Existing filenames retained; other site files unchanged.
